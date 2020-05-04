@@ -1,0 +1,50 @@
+.divfarben {
+  width: 300px;
+  height: 100px;
+  background-color: olivedrab;
+
+}
+
+.divHex {
+  width: 300px;
+  height: 100px;
+  background-color: #123456;
+
+}
+
+.divrgb {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(234,67,55);
+
+}
+
+.divrgba {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(234,67,55,0.2);
+
+}
+
+.hintergrund {
+  width: 400px;
+  height: 200px;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgb(40,60,80);
+
+}
+
+.divhsl {
+  width: 300px;
+  height: 100px;
+  background-color: hsl(167,77%,50%);
+
+}
+
+.divhsla {
+  width: 300px;
+  height: 100px;
+  background-color: hsla(167,77%,50%,0.6);
+
+}

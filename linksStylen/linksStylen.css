@@ -1,0 +1,19 @@
+#link:link {
+  color: #F00;
+  text-decoration: none;
+}
+
+#link:visited {
+  color: pink;
+  text-decoration: none;
+}
+
+#link:hover {
+  color: #00F;
+  text-decoration: underline;
+}
+
+#link:active {
+  color: #0FF;
+  text-decoration: underline;
+}

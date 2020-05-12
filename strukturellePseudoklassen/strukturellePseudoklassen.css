@@ -55,7 +55,7 @@ body :only-child {
 }
 
 .container div:nth-of-type(even) {
-  height: 100px;
+  height: 100px;#
 }
 
 .container div:nth-of-type(odd) {

@@ -1,0 +1,67 @@
+:root {
+  font-size: 25px;
+}
+
+p:empty {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.container :first-child {
+  font-weight: bold;
+}
+
+.container :last-child {
+  text-decoration: underline;
+}
+
+.container :nth-child(5) {
+  color: red;
+}
+
+.container :nth-child(even) {
+  background-color: grey;
+}
+
+.container :nth-child(odd) {
+  background-color: blue;
+}
+
+/* 1. 4. 7. 10. ... Element */
+.container :nth-child(3n+1) {
+  text-decoration: line-through;
+}
+
+.container :nth-last-child(5) {
+  color: red;
+}
+
+body :only-child {
+  border: 5px solid red;
+}
+
+.container :first-of-type {
+  color: yellow;
+}
+
+.container :last-of-type {
+  color: red;
+}
+
+
+.container div:nth-of-type(3) {
+  height: 50px;
+}
+
+.container div:nth-of-type(even) {
+  height: 100px;
+}
+
+.container div:nth-of-type(odd) {
+  height: 200px;
+}
+
+.container div:nth-of-type(3n+1) {
+  height: 400px;
+}

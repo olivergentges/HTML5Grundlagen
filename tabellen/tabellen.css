@@ -1,0 +1,28 @@
+table {
+  margin-bottom: 2rem;
+}
+
+/* border, border-collapse und border-spacing */
+
+
+/* table, td {
+  border: 1px solid black;
+} */
+
+table#test01, table#test01 td, table#test01 th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table#test02, table#test02 td, table#test02 th {
+  border: 1px solid black;
+  border-spacing: 10px;
+}
+
+#test03 {
+  border-collapse: collapse;
+}
+
+#test03 th {
+  background-color: red;
+}
